@@ -1,0 +1,36 @@
+.daireler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh; }
+.daire{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    line-height: 250px;
+    font-size:75px;
+    margin: 10px;
+}
+.daire1{background-color: royalblue;}
+.daire2{background-color: chocolate;}
+.daire3{background-color: hotpink;}
+
+.butonlar{
+height: 8vh;
+
+display: flex;
+justify-content: center;
+
+}
+.butonlar > * {
+    width: 110px;
+    border: 0 ;
+}
+.butonlar > *:hover{
+    background-color: chocolate;
+}
+
+
+

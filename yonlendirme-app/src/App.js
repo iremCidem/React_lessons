@@ -5,7 +5,7 @@ import About from "./components/about";
 import Iletişim from "./components/iletişim";
 import Urünler from "./components/ürünler";
 import { Routes, Route } from "react-router-dom";
-import Anakart from "./components/anakart";
+import Urünitem from "./components/ürünitem";
 
 function App() {
   return (
@@ -13,13 +13,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="hakkimizda" element={<About />} />
-        <Route path="ürünler" element={<Urünler />}>
-          <Route path="anakart" element={<Anakart />} />
-          <Route path="Harddisk" />
-          <Route path="Ekran kartı" />
-        </Route>
-
+        <Route path="/hakkimizda" element={<About />} />
+        <Route path="/ürünler" element={<Urünler />} />
+        <Route path="/ürünler/:id" element={<Urünitem />} />
         <Route path="iletisim" element={<Iletişim />} />
       </Routes>
     </div>
