@@ -1,0 +1,31 @@
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+ 
+
+}
+.App{
+width: 330px;
+height: 450px;
+background-color: #CD5C5C;
+display: grid;
+place-items: center;  
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+.textArea{
+  height: 120px;
+}
+.form > * {
+  margin-bottom: 5px;
+}
+h3{
+  text-align: center;
+  padding-bottom: 20px;
+}

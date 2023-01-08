@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.btn{
+   padding: 5px; 
+    text-decoration: none;
+    margin: 5px;
+}
+.btn:hover {
+    background-color: #4A828E;;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.form > * {
+    margin-bottom: 10px;
+    color: #4A828E;
+    
+}
+.form-page{
+    padding: 30px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+background-color:#68BACC;
+}
+.users{
+    padding: 5px;
+    list-style: none;
+    
+    
+}
+.userdiv{
+position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border: 1px solid #4A828E;
+    
+
+ 
+}
