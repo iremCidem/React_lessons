@@ -1,0 +1,21 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/variables";
+
+.kutu {
+    width: 100px;
+    height: 100px;
+    background-color: $pink-400;
+}
+
+.kutu1 {
+    width: 100px;
+    height: 100px;
+    background-color: $pink-600;
+}
+
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: $pink-800;
+}

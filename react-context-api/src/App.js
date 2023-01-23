@@ -9,18 +9,17 @@ const tema = {
 export const TemaVerisi = React.createContext(); //aktaracağımız veriyi oluşturuyoruz.
 function App() {
   const [değer, setDeğer] = useState(tema.dark);
-  function değiştir(){
-if(değer === tema.dark){
-  setDeğer(tema.light)
-}
-else{
-  setDeğer(tema.dark)
-}
+  function değiştir() {
+    if (değer === tema.dark) {
+      setDeğer(tema.light);
+    } else {
+      setDeğer(tema.dark);
+    }
   }
   return (
     <div className="App">
-      <button onClick={değiştir} style={{width:"80px"}}> 
-      {değer === tema.dark ? "light" : "dark"}
+      <button onClick={değiştir} style={{ width: "80px" }}>
+        {değer === tema.dark ? "light" : "dark"}
       </button>
       <TemaVerisi.Provider value={değer}>
         <Içerik />
